@@ -155,5 +155,5 @@ Overall, I believe my predictions were of good quality. When developing my model
 
 Gomez, J. (2019a, March 19). 8 critical factors that influence a home’s value. Opendoor. https://www.opendoor.com/w/blog/factors-that-influence-home-value
 
-Seasonality in the Housing Market. (2019, January 2). Www.Nar.Realtor. https://www.nar.realtor/blogs/economists-outlook/seasonality-in-the-housing-market#:%7E:text=Every%20year%2C%20transactions%20and%20prices,the%20housing%20demand%20and%20supply.
+Seasonality in the Housing Market. (2019, January 2). www.Nar.Realtor. https://www.nar.realtor/blogs/economists-outlook/seasonality-in-the-housing-market#:%7E:text=Every%20year%2C%20transactions%20and%20prices,the%20housing%20demand%20and%20supply.
 
