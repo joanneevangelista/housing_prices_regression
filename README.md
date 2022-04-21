@@ -119,7 +119,7 @@ _Interactions_
 
 I created an interaction feature between log Lot Area and Neighborhood to capture the simultaneous influence of two variables that is not additive. It is a bit difficult to see with all of the neighborhoods in Chart 1. However, when I filtered for the most expensive neighborhoods (Northridge, Northridge Heights and Stonebridge) in Chart 2, the relationship becomes more clear. We can see that the sales price increases faster for “more expensive” neighborhoods. 
 
-![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Log%20Lot%20Area.PNG)
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Log_Lot_Area.PNG)
 
 **Model Training and Selection**
 
