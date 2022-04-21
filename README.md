@@ -69,7 +69,9 @@ To understand the shape of Sale prices’ distribution, I created a histogram in
 
 With this insight, I applied similar transformations to the Lot Area and Above Ground Living Area (GrLivArea) variables. Again, we can see that a log transformation creates a more normal distribution. 
 
-![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Histogram2.PNG)
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Histogram_Lot_Area.PNG)
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Histogram_GrLiv_Area.PNG)
 
 **Data Preparation**
 
