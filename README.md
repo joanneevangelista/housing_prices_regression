@@ -75,7 +75,7 @@ With this insight, I applied similar transformations to the Lot Area and Above G
 
 **Data Preparation**
 
-_Duplicates and errors
+_Duplicates and errors_
 
 As part of my data preparation, I checked to see if there were any duplicates in the rows and none were identified. 
 
