@@ -91,7 +91,7 @@ _Missing Values_
 
 In order to identify the number of missing values for each of the variables, I obtained a list of the sum of NAs for each x variable. Based on these results, I replaced the missing data with “None” if it is a categorical variable and the mean or median if the missing value belongs to a numerical variable. 
 
-![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Missing%20Values.png)
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Missing_Values.PNG)
 
 For example, Lot Frontage has 486 missing values across the train and the test datasets. Thus, I have replaced those missing values with the median value of the Lot Frontage in the combined dataset. I repeated this step for other numerical variables such as MasVnrArea. For the missing values in Garage Year Built (GarageYrBlt), I replaced the NAs with 0. Since these observations did not have a garage, it makes sense that they do not have a Year Built. I applied the same rationale and process for NAs in BsmtFullBath, BsmtHalfBath, BsmtFinSF1, BsmtFinSF2, TotalBsmtSF, GarageCars and BsmtUnfSF. For the categorical variables such as MSZoning, Alley, Exterior1st, Exterior2nd, MasVnrType, BsmtQual, BsmtCond, Bsmtxposure, BsmtFinType1, BsmtFinType2, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, PoolQc, Fence, MiscFeature, KitchenQual, SalesType, Electrical, Utilities I performed a similar step, however I first had to convert them back into a character structure to replace the NA with “None”, then I changed it back into a factor. 
 
