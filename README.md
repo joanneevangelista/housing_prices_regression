@@ -44,3 +44,25 @@ _Data Visualizations_
 
 To obtain a better understanding of the relationship of Sales Price as a function of each of the numerical variables, I created visualizations within Tableau and R. As an example, refer to the graph for Above grade/ground living area (GrLivArea) vs. Sales Price. Based on this visual it is evident that there are outliers in the dataset which we will have to deal with when creating a predictive model.  Visually, the other continuous variables (TotalbsmtSF and Garage Area) looked very similar. 
 
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Sales_Price_Scatterplot.png)
+
+Box and whisker plots were useful for variables such as Overall Quality, Neighborhood, Month Sold, Year Sold, Sale Condition, Sale Type and Building Type to see the dispersion of the dataset. I noted for houses with a higher rating, the sales price tends to be greater and there are a few outliers. Additionally, the Northridge, Northridge Heights and Stone Bridge neighborhoods have the highest sales prices and also a few outliers as well. 
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Sales_Price_Box1.PNG)
+
+In the Months Sold visual, we can see that houses sold in the summer months (6,7 8) have a higher sales price which is consistent with the seasonality trend discussed earlier in the report.  In addition, I was interested in plotting Year Sold to see if the Great Recession impacted house prices. Based on the visualization of Sale prices vs. Year Sold, this does not appear to be the case as the spread of data 
+did not change significantly over the years apart from a few outliers. 
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Sales_Price_Box2.PNG)
+
+Based on the Sale Type visual, New houses have a higher sale price. In the Sale Condition chart, Normal and Partial correspond to a higher sale price. Additionally, the BldgType visual shows that the type of dwelling which corresponds to a higher sales price is single-family detached (1Fam). 
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Sales_Price_Box3.PNG)
+
+For the discrete variables such as Garage Cars, Full Bath and TotRmsAbvGrd, it is useful to see these relationships with Sales Price as well. As shown below, the houses with the highest prices have a 3-car garage, 3 full bathrooms and 10 total rooms above ground. 
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Sales_Price_Scatterplot2.PNG)
+
+To understand the shape of Sale prices’ distribution, I created a histogram in R. The visualization provided below indicates that Sale Prices do not follow a normal distribution and are positively skewed. We will have to address this through a transformation using the log function. When we do this, we can see that that the distribution becomes more normal. 
+
+![](
