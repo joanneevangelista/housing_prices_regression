@@ -133,8 +133,11 @@ _Variable Selection_
 
 To determine which variables should be included in my model, I considered stepwise variable section and regularizations such as Lasso and Ridge. 
 Under each method, I calculated the MAPE using my final regression model with the following results: 8.413714 with stepwise, 8.313277 with Lasso regression and 8.351858 with Ridge regression. Because the model with Lasso regression had the lowest MAPE, I used this model to predict the house prices that I submitted on Kaggle.
+
 Based on external research, the insights from my exploratory data analysis and data preparation, I knew I wanted to include the following variables as a starting point: log(LotArea), Neighborhood, log(GrLivArea), Total Bathroom, BedroomAbvGr, OverallQual, OverallCond, YearBuilt, YearRemodAdd, BsmtFinSF1, BsmtSF2, GarageCars, KichenQual, ExterQual, ExterCond, TotalPorchSF, MoSold_Summer, Sale Condition_Normal, SaleType_new, BsmtQual, BsmtFinType1, BsmtFinType2, and HeatingQC. These features made sense to me because they captured location, home size, useable space, age, condition/quality, upgrades, updates and seasonality.
+
 One interesting observation I noted was in regards to basement square footage. I started with just adding BsmtFinSF1 and BsmtFinSF2 into the model, but I also wanted to see if the performance would improve if I just used TotalBsmtSF. Based on the MAPEs, I discovered that it was better to keep BsmtFinSF1 and BsmtFinSF2 instead of TotalBsmtSF to capture basement square footage. A potential explanation for this observation is that TotalBsmtSF includes unfinished square feet of basement area whereas the other two features are finished square feet. This makes sense to me because based on my research, it is useable space that increases the value of the home and buyers cannot do much with unfinished area. 
+
 Then I thought to myself, “what would I like in a home and what information can I leverage from my own house hunting journey?” So I added the following features:
 
 •	Utilities: this would be important for me as a homebuyer because I would not want to have to install utilities such as a waterline after purchasing a house.
