@@ -120,8 +120,8 @@ _Interactions_
 I created an interaction feature between log Lot Area and Neighborhood to capture the simultaneous influence of two variables that is not additive. It is a bit difficult to see with all of the neighborhoods in Chart 1. However, when I filtered for the most expensive neighborhoods (Northridge, Northridge Heights and Stonebridge) in Chart 2, the relationship becomes more clear. We can see that the sales price increases faster for “more expensive” neighborhoods. 
 
 ![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Log%20Lot%20Area.PNG)
-**
-Model Training and Selection**
+
+**Model Training and Selection**
 
 _Cross-fold Validation_
 
@@ -152,6 +152,7 @@ _Quality of Predictions_
 Overall, I believe my predictions were of good quality. When developing my model, I considered variables that logically made sense to me and the inclusion of those features were supported by external research, leveraging my own house hunting experience and capturing the insights gained from exploratory data analysis. Using cross-fold validation and Lasso regression, I created a model from the train subset, ran it on the test subset and achieved a MAPE of approximately 8.31. This means that the average difference between the forecasted value and the actual value is 8.31%. While there is no threshold to determine how good of a MAPE this is, the model I created achieved a score of 0.12781 on the House Prices Kaggle competition. Although I was evaluated based on root-mean-squared-error (RMSE), I chose to use MAPE to determine prediction quality when developing my model. This is because MAPE has a more intuitive interpretation and both are acceptable metrics. 
 
 **Resources**
+
 Gomez, J. (2019a, March 19). 8 critical factors that influence a home’s value. Opendoor. https://www.opendoor.com/w/blog/factors-that-influence-home-value
 
 Seasonality in the Housing Market. (2019, January 2). Www.Nar.Realtor. https://www.nar.realtor/blogs/economists-outlook/seasonality-in-the-housing-market#:%7E:text=Every%20year%2C%20transactions%20and%20prices,the%20housing%20demand%20and%20supply.
