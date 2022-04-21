@@ -65,7 +65,7 @@ For the discrete variables such as Garage Cars, Full Bath and TotRmsAbvGrd, it i
 
 To understand the shape of Sale prices’ distribution, I created a histogram in R. The visualization provided below indicates that Sale Prices do not follow a normal distribution and are positively skewed. We will have to address this through a transformation using the log function. When we do this, we can see that that the distribution becomes more normal. 
 
-![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Histogram.PNG)
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Historgram1.PNG)
 
 With this insight, I applied similar transformations to the Lot Area and Above Ground Living Area (GrLivArea) variables. Again, we can see that a log transformation creates a more normal distribution. 
 
