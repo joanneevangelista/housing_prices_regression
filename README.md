@@ -35,3 +35,12 @@ Through this step, I discovered there were outliers in the GrLivArea because the
 _Correlations_ 
 
 To identify how the numerical variables were correlated with Sale Price, I created a correlation plot pictured below.
+
+![](https://github.com/joanneevangelista/housing_prices_regression/blob/main/Images/Correlation.png)
+
+As show in the plot, the 5 variables most positively correlated with Sales Price include Overall Quality of 0.79098, Above grade/ground living area (GrLivArea) of 0.7862, Garage Cars of 0.640409, Garage Area of 0.623431 and Total Basement square footage (TotalBsmtSF) of 0.613581. The 5 variables most negatively correlated with Sale Price are Year Sold of -0.02892, Overall Condition of -0.077856, MSSubClass of -0.084284, Enclosed Porch of -0.128578 and KitchenAbv of -0.135907. This information helped me select which variables I wanted to include in my model. 
+
+_Data Visualizations_
+
+To obtain a better understanding of the relationship of Sales Price as a function of each of the numerical variables, I created visualizations within Tableau and R. As an example, refer to the graph for Above grade/ground living area (GrLivArea) vs. Sales Price. Based on this visual it is evident that there are outliers in the dataset which we will have to deal with when creating a predictive model.  Visually, the other continuous variables (TotalbsmtSF and Garage Area) looked very similar. 
+
