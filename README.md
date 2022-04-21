@@ -151,7 +151,7 @@ _Quality of Predictions_
 
 Overall, I believe my predictions were of good quality. When developing my model, I considered variables that logically made sense to me and the inclusion of those features were supported by external research, leveraging my own house hunting experience and capturing the insights gained from exploratory data analysis. Using cross-fold validation and Lasso regression, I created a model from the train subset, ran it on the test subset and achieved a MAPE of approximately 8.31. This means that the average difference between the forecasted value and the actual value is 8.31%. While there is no threshold to determine how good of a MAPE this is, the model I created achieved a score of 0.12781 on the House Prices Kaggle competition. Although I was evaluated based on root-mean-squared-error (RMSE), I chose to use MAPE to determine prediction quality when developing my model. This is because MAPE has a more intuitive interpretation and both are acceptable metrics. 
 
-**Resources**
+**Resources for External Research**
 
 Gomez, J. (2019a, March 19). 8 critical factors that influence a home’s value. Opendoor. https://www.opendoor.com/w/blog/factors-that-influence-home-value
 
