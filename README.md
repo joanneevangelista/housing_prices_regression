@@ -1,6 +1,30 @@
 # housing_prices_regression
 
-The data provided for the house prices competition consists of residential properties in Ames, Iowa which were sold between 2006 and 2010. The train dataset contains 1460 observations and 79 explanatory variables. The objective is to predict the final sale price of 1459 homes in the test dataset using creative feature engineering and advanced regression techniques. The dataset can be found on Kaggle using this link: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+**Key Findings: The most important features when predicting house prices are location, home size, useable space, age, condition/quality, upgrades, updates, and seasonablity.**
+
+**Table of Contents**
+
+•	Business Problem
+
+•	Data Source
+
+•	Why this Kaggle Competition
+
+•	Exploratory Data Analysis
+
+•	Data Preparation
+
+•	Model Training & Selection
+
+•	Quality of Predictions
+
+**Business Problem**
+
+The data provided for the house prices competition consists of residential properties in Ames, Iowa which were sold between 2006 and 2010. The train dataset contains 1460 observations and 79 explanatory variables. The objective is to predict the final sale price of 1459 homes in the test dataset using creative feature engineering and advanced regression techniques. 
+
+**Data Source**
+
+The dataset can be found on Kaggle using this link: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 **Why I selected this Kaggle competition?**
 
