@@ -1,6 +1,6 @@
 # housing_prices_regression
 
-**Key Findings: The most important features when predicting house prices are location, home size, useable space, age, condition/quality, upgrades, updates, and seasonablity.**
+**Key Findings:** The most important features when predicting house prices are location, home size, useable space, age, condition/quality, upgrades, updates, and seasonablity.
 
 **Table of Contents**
 
